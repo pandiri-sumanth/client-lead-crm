@@ -1,16 +1,101 @@
-# React + Vite
+# Client Lead Capture CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Client Lead Capture CRM is a full-stack web application developed for internship project INT-29 at BrandSparkx.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application helps businesses manage client leads efficiently by allowing users to add, view, update, delete, search, and track lead status.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend:
 
-## Expanding the ESLint configuration
+* React.js
+* Tailwind CSS
+* React Router DOM
+* Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend:
+
+* Python Flask
+* Flask-CORS
+* SQLAlchemy
+
+Database:
+
+* MySQL
+
+Deployment:
+
+* Vercel (Frontend)
+* Flask Backend
+
+## Features
+
+* Login Page
+* Dashboard
+* Add Lead
+* View Leads
+* Edit Lead
+* Delete Lead
+* Search Leads
+* Lead Status Tracking
+* Dashboard Statistics
+* MySQL Database Integration
+* REST API Integration
+
+## Lead Status Options
+
+* New
+* Contacted
+* Converted
+
+## API Endpoints
+
+GET /leads
+
+POST /leads
+
+PUT /leads/<id>
+
+DELETE /leads/<id>
+
+GET /stats
+
+## Project Structure
+
+client-lead-crm/
+
+frontend/
+
+backend/
+
+## Installation
+
+Frontend
+
+npm install
+
+npm run dev
+
+Backend
+
+pip install -r requirements.txt
+
+python app.py
+
+## Database
+
+Create MySQL database:
+
+CREATE DATABASE lead_crm;
+
+Configure environment variables in .env file.
+
+## Author
+
+Sumanth
+
+Internship Project INT-29
+
+BrandSparkx
